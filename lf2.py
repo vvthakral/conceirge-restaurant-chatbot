@@ -93,10 +93,10 @@ def send_email(cuisine,people,date,time,rest_info,to_email='vishnuthakral@gmail.
     
     RECIPIENT  = to_email
     
-    USERNAME_SMTP = "AKIAWLJFRCMOLNNRXV4W"
+    USERNAME_SMTP = #"username"
     
     # Replace smtp_password with your Amazon SES SMTP password.
-    PASSWORD_SMTP = "BE2sP5TciC+i33FzuK/kULEXduoAGsaDnG3k6Jm+F8KA"
+    PASSWORD_SMTP = #"password"
     
     HOST = "email-smtp.us-east-1.amazonaws.com"
     PORT = 587
